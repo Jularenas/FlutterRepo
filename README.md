@@ -19,5 +19,5 @@ el historial consiste del termino de busqueda y la fecha en la que se hizo, este
 * quisiera poder haber hecho de todo en este tiempo, autenticacion con base de datos un uso adecuado de API y un single view para la busqueda de modo que se desplegara en la misma vista cuando se reesolviera la peticion. 
 
 
-### Gracias por leer
+### Gracias por leer (no tengo tildes, perdon por eso)
 
