@@ -35,7 +35,12 @@ class ApiProvider {
   }
 
   Future<List<RestauranteModel>> obtenerRestaurantesFiltered(String term) {
-    return new Future.delayed(const Duration(seconds: 2),
-        () => rests.where((rest) => rest.ciudad.startsWith(term)).toList());
+    print(rests.where((rest) => rest.ciudad.startsWith(term)).toList());
+    return new Future.delayed(
+        const Duration(seconds: 2),
+        () => rests
+            .where((rest) =>
+                rest.ciudad.toLowerCase().startsWith(term.toLowerCase()))
+            .toList());
   }
 }
